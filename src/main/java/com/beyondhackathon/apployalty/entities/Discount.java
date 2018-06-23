@@ -13,7 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Getter
 @Setter
 @NoArgsConstructor
-@Document(collection = "offer")
+@Document(collection = "Discount")
 public class Discount {
 
     @Id

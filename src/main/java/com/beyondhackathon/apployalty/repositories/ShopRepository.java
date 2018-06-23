@@ -4,11 +4,12 @@ import java.util.List;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import com.beyondhackathon.apployalty.entities.Discount;
+import com.beyondhackathon.apployalty.entities.Shop;
 
-public interface OfferRepository extends MongoRepository<Discount, String> {
+public interface ShopRepository extends MongoRepository<Shop, String> {
 
     @Override
-    List<Discount> findAll();
+    List<Shop> findAll();
+
 
 }
